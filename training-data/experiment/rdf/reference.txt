@@ -1,0 +1,2 @@
+Source: https://doi.org/10.1063/1.4790861
+The region with r<2.4A is forced to be 0 and the region 2.4A<r<2.6A is smoothed.

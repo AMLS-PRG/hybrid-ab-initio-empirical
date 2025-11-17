@@ -1,6 +1,6 @@
-*.pkl filter=lfs diff=lfs merge=lfs -text
-*.xyz filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
-*.out filter=lfs diff=lfs merge=lfs -text
 *.raw filter=lfs diff=lfs merge=lfs -text
+*.xyz filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.out filter=lfs diff=lfs merge=lfs -text
 *.stdout filter=lfs diff=lfs merge=lfs -text
