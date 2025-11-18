@@ -1,0 +1,4 @@
+.venv/
+deepmd-jax/
+training-data/ab-initio/SCAN/
+training-data/ab-initio/MB-pol/

@@ -20,14 +20,21 @@ git clone https://github.com/AMLS-PRG/hybrid-ab-initio-empirical
 ```
 cd hybrid-ab-initio-empirical
 git clone https://github.com/AMLS-PRG/deepmd-jax
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 cd deepmd-jax
 pip install --upgrade pip
 pip install -e .
+cd ..
+```
+3. Pull Git LFS files. Git LFS needs to be installed.
+```
+git lfs install
+git lfs pull
 ```
 
-Python libraries required for the DeePMD-JAX software:
+Packages required for the DeePMD-JAX software:
+* Python 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]
 * JAX 0.6.2
 * Flax 0.10.6
 * Optax 0.2.5
@@ -40,8 +47,8 @@ Python libraries required for the DeePMD-JAX software:
 * pandas 2.3.3
 
 ## Download ab initio data
-For reproducing the simulations you need to download the ab initio datasets. You can find them in the following repositories:
-* SCAN: 
+For reproducing the simulations you need to download the ab initio datasets. You can find them in the following links:
+* SCAN: https://www.aissquare.com/datasets/detail?pageType=datasets&id=1
 * MB-pol: https://github.com/sigbjobo/Quantum-phase-diagram-of-water/tree/main/Model/TrainingSet/training
 
 You may copy the dataset inside the folders in `training-data/ab-initio/`.
